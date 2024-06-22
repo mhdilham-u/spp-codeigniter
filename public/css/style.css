@@ -1,0 +1,247 @@
+* {
+  font-family: "Lato", sans-serif;
+}
+#content {
+  overflow-x: hidden;
+}
+.sidebar-brand-text {
+  font-family: "Oleo Script", sans-serif;
+  font-size: 30px;
+}
+/* .border-left-primary {
+  border-color: black !important;
+}
+.text-primary {
+  color: black !important;
+} */
+.img-laporan {
+  width: 160px;
+}
+.text-laporan {
+  margin-left: -350px;
+  margin-top: 20px;
+}
+@media print {
+  .text-laporan {
+    margin-left: -300px;
+  }
+}
+
+.bg-default {
+  background: linear-gradient(to top, rgb(53, 53, 211), rgb(51, 13, 139));
+  color: white;
+}
+.btn-default {
+  background-color: rgb(71, 12, 211);
+  color: whitesmoke;
+}
+.btn-default:hover {
+  background-color: rgb(68, 15, 192);
+  color: whitesmoke !important;
+}
+.btn-cancel {
+  color: #fff;
+  background-color: #e74a3b;
+  border-color: #e74a3b;
+}
+.btn-cancel:hover {
+  color: #fff;
+  background-color: #e02d1b;
+  border-color: #d52a1a;
+}
+.btn-cancel:focus,
+.btn-cancel.focus {
+  color: #fff;
+  background-color: #e02d1b;
+  border-color: #d52a1a;
+  box-shadow: 0 0 0 0.2rem rgba(235, 101, 88, 0.5);
+}
+.text-header {
+  font-weight: bold;
+  color: rgb(31, 31, 31);
+  margin: 0;
+  padding: 5px;
+}
+.container-fluid {
+  color: rgb(41, 41, 41);
+}
+.collapse-item {
+  color: rgb(41, 41, 41) !important;
+}
+.table {
+  color: rgb(41, 41, 41) !important;
+  vertical-align: middle !important;
+}
+.pagination {
+  font-size: 14px;
+}
+.dataTables_info {
+  display: none;
+}
+ul li .nav-link {
+  padding: 10px !important;
+  width: 100% !important;
+}
+ul .nav-item {
+  padding: 10px !important;
+}
+.sidebar {
+  width: 251px !important;
+}
+
+ul li a.active {
+  color: rgb(41, 41, 41) !important;
+  border-radius: 8px;
+  background-color: whitesmoke;
+}
+
+#collapseData a.active {
+  background-color: #eaecf4 !important;
+  color: rgb(41, 41, 41) !important;
+}
+
+.btn-search {
+  background-color: rgb(16, 16, 155);
+  color: white;
+  width: 3rem;
+}
+.btn-search:hover {
+  background-color: rgb(12, 12, 112);
+  color: white;
+}
+.list-group .text-list {
+  display: inline;
+  text-align: center !important;
+}
+.no-border {
+  border: none !important;
+}
+.border-pembayaran {
+  border-bottom: 1px solid #dee2e6;
+}
+.ttd {
+  margin-top: 45px;
+  text-align: right;
+}
+.text-ttd {
+  text-decoration: underline;
+}
+.text-sidebar {
+  color: white !important;
+}
+.swal2-cancel:focus {
+  color: #fff;
+  background-color: #e02d1b;
+  border-color: #d52a1a;
+  box-shadow: 0 0 0 0.2rem rgba(235, 101, 88, 0.5) !important;
+}
+
+/*  ========== 
+    Siswa
+========== */
+.img-siswa {
+  width: 60%;
+  height: auto;
+  border-radius: 50%;
+}
+.tr-last {
+  border-bottom: 1px solid #e3e6f0;
+}
+.col-form-label {
+  text-align: right;
+}
+
+/*  ========== 
+    Login
+========== */
+.login {
+  margin: 60px auto;
+  padding: 5rem 20px;
+  border-radius: 15px;
+  box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.2);
+}
+.img-login {
+  width: 25rem;
+  margin-left: 60px !important;
+}
+.btn-login {
+  border-radius: 35px;
+  width: 7rem;
+  height: 2.6rem;
+  margin-left: -10px;
+  background-color: rgb(16, 16, 155);
+  color: white;
+}
+.btn-login:hover {
+  background-color: white;
+  border: 2px solid rgb(16, 16, 155);
+  color: rgb(16, 16, 155);
+}
+.form-login {
+  border-radius: 35px;
+  height: 2.6rem;
+  padding: 20px;
+  margin-left: -10px;
+}
+.text-sidebar {
+  font-size: 12px;
+}
+
+@media (max-width: 900px) {
+  .table {
+    font-size: 12px;
+  }
+  .alert {
+    font-size: 12px;
+  }
+  .btn {
+    font-size: 12px;
+  }
+  .sidebar {
+    width: 6.5rem !important;
+  }
+  .input-group .form-control {
+    font-size: 13px !important;
+  }
+  .img-siswa {
+    width: 40%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  label {
+    font-size: 12px !important;
+    text-align: left !important;
+  }
+  .form-tambah-siswa {
+    height: calc(1.5em + 0.5rem + 2px);
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+  }
+  .text-header {
+    font-size: 15px;
+    text-align: left !important;
+  }
+  .h3 {
+    font-size: 20px;
+  }
+  .profile {
+    text-align: center;
+  }
+  .card-img {
+    width: 200px;
+    margin-top: 10px;
+  }
+  .img-login {
+    width: 25rem;
+    margin-left: -0 !important;
+  }
+  .list-group {
+    font-size: 12px;
+  }
+  .form-control {
+    font-size: 12px;
+  }
+}
